@@ -1,5 +1,5 @@
 html {
-    min-height: 110%;
+    min-height: 100%;
 }
 body {
     margin: 0;
@@ -30,9 +30,16 @@ body {
 .menu li {
     display: inline;
     margin: 0 2.5rem 0 2.5rem;
-    color: #424874;
     letter-spacing: 2px;
     font-size: 0.9rem;
+}
+.menu a {
+    color: #424874;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu a:hover {
+    color: #8186ad;
 }
 
 
@@ -88,10 +95,14 @@ body {
     height: 2rem;
     letter-spacing: 3px;
     font-size: 0.9rem;
-    color: #42487452;
     text-align: center;
     margin-bottom: 15px;
 }
+.box3 a, .box6 a {
+    color: #42487452;
+    text-decoration: none;
+}
+
 
 .container2 {
     display: grid;
@@ -165,6 +176,9 @@ body {
     letter-spacing: 2px;
     font-size: 0.9rem;
     padding-left: 10px;
+}
+.colors a {
+    text-decoration: none;
     color: #ffffff83;
 }
 
@@ -243,6 +257,10 @@ body {
     }
     .box4 {
         text-align: center;
+    }
+
+    .colors {
+        top: 51%;
     }
 
 
