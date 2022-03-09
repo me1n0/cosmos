@@ -11,11 +11,11 @@ body {
     display: flex;
 }
 .box0 {
-    border: 1px solid #dbdff148;
-    background-color: #dbdff11e;
-    box-shadow: 0 0 10px #A6B1E1;
-    backdrop-filter: blur( 14.5px ); 
-    -webkit-backdrop-filter: blur( 14.5px );
+    border: 1px solid #e9ebf55e;
+    background-color: #dbdff13b;
+    box-shadow: 0 0 10px #999eb873;
+    backdrop-filter: blur( 2px ); 
+    -webkit-backdrop-filter: blur( 2px );
     align-items: center;
     width: 25rem;
     height: 2.5rem;
@@ -51,11 +51,11 @@ body {
     margin-top: 10vh;
 }
 .container-border {
-    border: 1px solid #dbdff148;
-    background-color: #dbdff11e;
-    box-shadow: 0 0 10px #A6B1E1;
-    backdrop-filter: blur( 15px ); 
-    -webkit-backdrop-filter: blur( 15px );
+    border: 1px solid #e9ebf55e;
+    background-color: #dbdff13b;
+    box-shadow: 0 0 10px #999eb873;
+    backdrop-filter: blur(2px); 
+    -webkit-backdrop-filter: blur(2px);
     border-radius: 20px;
 }
 .box1 {
@@ -85,11 +85,11 @@ body {
     justify-content: center;
 }
 .box3 button {
-    border: 1px solid #dbdff148;
-    background-color: #dbdff11e;
-    box-shadow: 0 0 10px #A6B1E1;
-    backdrop-filter: blur( 15px ); 
-    -webkit-backdrop-filter: blur( 15px );
+    border: 1px solid #e9ebf55e;
+    background-color: #dbdff13b;
+    box-shadow: 0 0 10px #999eb873;
+    backdrop-filter: blur(2px); 
+    -webkit-backdrop-filter: blur(2px);
     border-radius: 20px;
     width: 5rem;
     height: 2rem;
@@ -101,6 +101,10 @@ body {
 .box3 a, .box6 a {
     color: #42487452;
     text-decoration: none;
+    transition: 0.5s;
+}
+.box3 a:hover, .box6 a:hover {
+    color: #42487477;
 }
 
 
@@ -111,11 +115,11 @@ body {
     margin-top: 10vh;
 }
 .container-border2 {
-    border: 1px solid #dbdff148;
-    background-color: #dbdff11e;
-    box-shadow: 0 0 10px #A6B1E1;
-    backdrop-filter: blur( 15px ); 
-    -webkit-backdrop-filter: blur( 15px );
+    border: 1px solid #e9ebf55e;
+    background-color: #dbdff13b;
+    box-shadow: 0 0 10px #999eb873;
+    backdrop-filter: blur(2px); 
+    -webkit-backdrop-filter: blur(2px);
     border-radius: 20px;
 }
 .box4 {
@@ -145,11 +149,11 @@ body {
     justify-content: center;
 }
 .box6 button {
-    border: 1px solid #dbdff148;
-    background-color: #dbdff11e;
-    box-shadow: 0 0 10px #A6B1E1;
-    backdrop-filter: blur( 15px ); 
-    -webkit-backdrop-filter: blur( 15px );
+    border: 1px solid #e9ebf55e;
+    background-color: #dbdff13b;
+    box-shadow: 0 0 10px #999eb873;
+    backdrop-filter: blur(2px); 
+    -webkit-backdrop-filter: blur(2px);
     border-radius: 20px;
     width: 5rem;
     height: 2rem;
@@ -168,7 +172,7 @@ body {
     border-radius: 10px 0 0 10px;
     width: 5rem;
     position: absolute;
-    top: 70%;
+    bottom: 10rem;
     right: 0;
 }
 .colors p {
@@ -180,6 +184,10 @@ body {
 .colors a {
     text-decoration: none;
     color: #ffffff83;
+    transition: 0.5s;
+}
+.colors a:hover {
+    color: #ffffffb7
 }
 
 .planet1 {
@@ -260,29 +268,29 @@ body {
     }
 
     .colors {
-        top: 51%;
+        bottom: 5px;
     }
 
 
 
     .planet1 {
         width: 15rem;
-        top: 55%;
+        top: 40%;
         left: 25%;
     }
     .planet2 {
         width: 10rem;
-        top: 45%;
+        top: 35%;
         left: 15%;
     }
     .planet3 {
         width: 7rem;
-        top: 69%;
-        left: 60%;
+        top: 51%;
+        left: 55%;
     }
     .planet4 {
         width: 5rem;
-        top: 75%;
-        left: 18%;
+        top: 63%;
+        left: 16%;
     }
 }
